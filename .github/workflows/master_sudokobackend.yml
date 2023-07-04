@@ -49,5 +49,5 @@ jobs:
         with:
           app-name: 'sudokobackend'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_1E18F22264E342D6BBA0959FE2521981 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_3EA25D351999486DAACEA3DB744FF213 }}
           package: '*.jar'
