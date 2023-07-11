@@ -135,9 +135,9 @@ public class SudokuController {
     	    }
 
     	    // Check if the cell is already filled
-    	    if (sudokuGame.getPuzzle()[row][col] != SudokuGame.EMPTY_CELL) {
-    	        return ResponseEntity.badRequest().body("The cell is already filled.");
-    	    }
+//    	    if (sudokuGame.getPuzzle()[row][col] != SudokuGame.EMPTY_CELL) {
+//    	        return ResponseEntity.badRequest().body("The cell is already filled.");
+//    	    }
 
     	    // Check if the move is valid
     	    if (!sudokuGame.isValidMove(sudokuGame.getPuzzle(), row, col, value)) {
